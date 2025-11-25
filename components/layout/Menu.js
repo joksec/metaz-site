@@ -45,7 +45,7 @@ export default function Menu() {
                     </Link>
                 </li>
                 <li className="menu-item position-relative">
-                    <Link href="#agence" className="fw_500">
+                    <Link href="/#agence" className="fw_500">
                         Agence
                     </Link>
                 </li>
@@ -74,7 +74,7 @@ export default function Menu() {
                 </li>
  
                  <li className="menu-item position-relative">
-                    <Link href="#realisations" className="fw_500">
+                    <Link href="/#realisations" className="fw_500">
                         Réalisations
                     </Link>
                 </li>

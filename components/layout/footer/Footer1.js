@@ -76,7 +76,7 @@ export default function Footer1() {
                                     </h5>
                                     <ul className="link-footer d-grid gap-xxl-5 gap-4" data-aos="zoom-in" data-aos-duration={1400}>
                                         <li>
-                                            <Link href="/about" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/#agence" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -84,7 +84,7 @@ export default function Footer1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="#" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -92,7 +92,7 @@ export default function Footer1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/blog-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="https://blog.metaz.fr" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -126,7 +126,7 @@ export default function Footer1() {
                                     </h5>
                                     <ul className="link-footer d-grid gap-xxl-5 gap-4" data-aos="zoom-in" data-aos-duration={1400}>
                                         <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/services/identite-de-marque" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -134,7 +134,7 @@ export default function Footer1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/study-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/services/creation-de-site-web" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -142,7 +142,7 @@ export default function Footer1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/study-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/services/marketing-reseaux-sociaux" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
@@ -150,7 +150,7 @@ export default function Footer1() {
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                            <Link href="/services/solutions-ia" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                 <span className="ani-icons">
                                                     <i className="fas fa-angle-double-right pra-clr" />
                                                 </span>
