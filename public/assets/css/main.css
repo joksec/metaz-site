@@ -135,7 +135,7 @@ p {
 }
 
 .pra-clr {
-    color: #bebebe !important;
+    color: #8e8b8b !important;
 }
 
 .theme-border {
@@ -799,8 +799,7 @@ footer {
     transition: all 0.4s;
     font-size: 16px !important;
     font-weight: 600;
-    text-transform: uppercase;
-    color: var(--white);
+     color: var(--white);
 }
 
 @media (max-width: 1199px) {
@@ -1405,7 +1404,7 @@ footer {
     display: inline-flex;
     align-items: center;
     font-family: var(--jakarta);
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 400;
 }
 
@@ -4772,8 +4771,7 @@ input.main-search-input::placeholder {
 
 .onhover-tabbing-wrap .nav-tabs .nav-link .right-info {
     font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 600;
+     font-weight: 600;
     color: var(--white);
 }
 
@@ -5190,7 +5188,6 @@ input.main-search-input::placeholder {
     height: 58px;
     border-radius: 50%;
     display: block;
-    border: 5px solid var(--white);
     transition: all 0.5s;
 }
 

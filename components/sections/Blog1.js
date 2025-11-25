@@ -41,7 +41,7 @@ export default function Blog1() {
                                             </span>
                                         </Link>
                                         <span className="bspan-clr">
-                                            MARCH 24, 2024
+                                            24 Octobre, 2025
                                         </span>
                                     </div>
                                     <h5>
@@ -66,7 +66,7 @@ export default function Blog1() {
                                             </span>
                                         </Link>
                                         <span className="bspan-clr">
-                                            MARCH 24, 2024
+                                            12 Octobre, 2025
                                         </span>
                                     </div>
                                     <h5>
@@ -91,7 +91,7 @@ export default function Blog1() {
                                             </span>
                                         </Link>
                                         <span className="bspan-clr">
-                                            MARCH 24, 2024
+                                            10 Octobre, 2025
                                         </span>
                                     </div>
                                     <h5>

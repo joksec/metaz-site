@@ -8,7 +8,7 @@ export default function About1() {
     return (
         <>
 
-            <section className="about-product pt-space pb-20">
+            <section className="about-product pt-space pb-20" id="agence">
                 <div className="container">
                     <div className="row g-xxl-7 g-lg-5 g-7">
                         <div className="col-lg-6">
@@ -23,7 +23,8 @@ export default function About1() {
                                         Metaz en quelques mots
                                     </div>
                                     <h2 className="stitle mb-xxl-8 mb-xl-7 mb-xl-5 mb-4" data-aos="fade-up" data-aos-duration={1600}>
-                                        Votre partenaire 
+                                        Votre partenaire
+                                        {' '}
                                         <span className="regular">
                                              créatif digital
                                         </span>

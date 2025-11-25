@@ -45,9 +45,7 @@ export default function ServiceIdentite() {
                 <section className="Service-details pt-space pb-space">
                     <div className="container">
                         <div className="service-details-header bb-border pb-xxl-9 pb-xl-7 pb-6">
-                            <div className="thumb w-100 mb-xxl-12 mb-xl-9 mb-sm-6 mb-5" data-aos="zoom-in" data-aos-duration={1500}>
-                                <img src="/assets/img/identite-marque/bg.jpg" alt="img" className="w-100" />
-                            </div>
+                            
                             <h3 className="white-clr mb-xxl-9 mb-xl-7 mb-lg-6 mb-4" data-aos="zoom-in-left" data-aos-duration={1600}>
                                 Création do logo, charte graphique, naming, branding complet pour révéler l'ADN de votre marque.
                             </h3>
@@ -134,17 +132,17 @@ export default function ServiceIdentite() {
                             <Swiper {...swiperOptions} className="swiper-wrapper">
                                 <SwiperSlide>
                                     <div className="study-thumb-slide w-100">
-                                        <img src="/assets/img/service/service-slide1.png" alt="img" className="w-100" />
+                                        <img src="/assets/img/service/identite-1.jpeg" alt="img" className="w-100" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="study-thumb-slide w-100">
-                                        <img src="/assets/img/service/service-slide2.png" alt="img" className="w-100" />
+                                        <img src="/assets/img/service/identite-2.jpeg" alt="img" className="w-100" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="study-thumb-slide w-100">
-                                        <img src="/assets/img/service/service-slide1.png" alt="img" className="w-100" />
+                                        <img src="/assets/img/service/identite-3.jpeg" alt="img" className="w-100" />
                                     </div>
                                 </SwiperSlide>
                             </Swiper>

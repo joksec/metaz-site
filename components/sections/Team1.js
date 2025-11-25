@@ -29,7 +29,7 @@ export default function Team1() {
                             Découvrez notre <span className="fw-400">équipe</span>
                             </h2>
                         </div>
-                        <Link href="/team" className="radius-btn d-inline-flex text-capitalize radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
+                        <Link href="#" className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
                             Voir tous les membres
                             <span className="rot60 d-inline-block">
                                 <i className="fas fa-arrow-up theme-clr" />
@@ -74,10 +74,10 @@ export default function Team1() {
                                 </div>
                                 <div className="content">
                                     <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3">
-                                        Directeur artisique
+                                        Directeur artistique
                                     </span>
                                     <h5 className="white-clr whitehover">
-                                        <Link href="/team-details" className="white-clr whitehover">Ilyass Boukraa</Link>
+                                        <Link href="/team-details" className="white-clr whitehover">B. Ilyass</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@ export default function Team1() {
                                         UI/UX designer
                                     </span>
                                     <h5 className="white-clr">
-                                        <Link href="/team-details" className="white-clr whitehover">Darlene Robertson</Link>
+                                        <Link href="/team-details" className="white-clr whitehover">D.Robertson</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@ export default function Team1() {
                         <Tilt options={toltOptions} className="col-xl-3 col-lg-4 col-md-6 col-sm-6" data-aos="fadein" data-aos-duration={1400}>
                             <div className="team-card01 tilt overflow-hidden">
                                 <div className="thumb overflow-hidden w-100 position-relative mb-xxl-7 mb-xl-6 mb-5">
-                                    <img src="/assets/img/team/team4.png" alt="img" className="w-100" />
+                                    <img src="/assets/img/team/anass.jpg" alt="img" className="w-100" />
                                     <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
                                         <li>
                                             <Link href="/#" className="text-center d-center">
@@ -167,7 +167,7 @@ export default function Team1() {
                                         Full Stack Developer
                                     </span>
                                     <h5 className="white-clr">
-                                        <Link href="/team-details" className="white-clr whitehover">Anass Boukraa</Link>
+                                        <Link href="/team-details" className="white-clr whitehover">B. Anass</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -212,7 +212,7 @@ export default function Team1() {
                                     Senior Account Manager
                                     </span>
                                     <h5 className="white-clr">
-                                        <Link href="/team-details" className="white-clr whitehover">Esther Howard</Link>
+                                        <Link href="/team-details" className="white-clr whitehover">E. Howard</Link>
                                     </h5>
                                 </div>
                             </div>
