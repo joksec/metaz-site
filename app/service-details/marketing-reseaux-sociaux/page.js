@@ -45,7 +45,9 @@ export default function ServiceMarketing() {
                 <section className="Service-details pt-space pb-space">
                     <div className="container">
                         <div className="service-details-header bb-border pb-xxl-9 pb-xl-7 pb-6">
-                             
+                        <div className="thumb w-100 mb-xxl-12 mb-xl-9 mb-sm-6 mb-5" data-aos="zoom-in" data-aos-duration={1500}>
+                                <img src="/assets/img/service/marketing.png" alt="img" className="w-100" />
+                            </div>
                             <h3 className="white-clr mb-xxl-9 mb-xl-7 mb-lg-6 mb-4" data-aos="zoom-in-left" data-aos-duration={1600}>
                                 Stratégies social media, contenu et campagnes publicitaires pour développer votre audience et vos ventes.
                             </h3>
@@ -130,7 +132,17 @@ export default function ServiceMarketing() {
                             <Swiper {...swiperOptions} className="swiper-wrapper">
                                 <SwiperSlide>
                                     <div className="study-thumb-slide w-100">
-                                        <img src="/assets/img/service/marketing-1.jpeg" alt="img" className="w-100" />
+                                        <img src="/assets/img/service/marketing-1.png" alt="img" className="w-100" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="study-thumb-slide w-100">
+                                        <img src="/assets/img/service/marketing-2.png" alt="img" className="w-100" />
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="study-thumb-slide w-100">
+                                        <img src="/assets/img/service/marketing-3.png" alt="img" className="w-100" />
                                     </div>
                                 </SwiperSlide>
                                  

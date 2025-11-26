@@ -13,7 +13,7 @@ Version: 1.0.0
     --black: #000;
     --white: #fff;
     --spantext: #757575;
-    --theme: #09D5DC;
+    --theme: #2DBCEE;
     --bg1: #161616;
     --bg2: #1b1b1b;
     --bg3: #fff;
@@ -123,7 +123,7 @@ p {
     transition: all 0.4s ease-in-out;
     font-size: 16px;
     font-family: var(--manrope);
-    color: var(--white);
+    color: #aea8a8;
 }
 
 .zindex1 {
@@ -755,7 +755,6 @@ footer {
 
 @media (max-width: 1199px) {
     .header-section .brand-logo {
-        max-width: 100px;
     }
 }
 
@@ -1142,6 +1141,7 @@ footer {
     position: absolute;
     bottom: 90px;
     left: 16px;
+    opacity: 30%;
 }
 
 .breadcrumnd-banner .cmn-svg-shape svg {
@@ -3942,7 +3942,7 @@ input.main-search-input::placeholder {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(239, 100, 76, 0) 64.05%, #09D5DC 115.68%);
+    background: linear-gradient(180deg, rgba(239, 100, 76, 0) 64.05%, #2DBCEE 115.68%);
     transition: all 0.5s;
 }
 
@@ -4002,7 +4002,7 @@ input.main-search-input::placeholder {
 
 .team-card01:hover .thumb::before {
     bottom: 0;
-    background: linear-gradient(180deg, rgba(239, 100, 76, 0) 64.05%, #09D5DC 115.68%);
+    background: linear-gradient(180deg, rgba(239, 100, 76, 0) 64.05%, #2DBCEE 115.68%);
 }
 
 .team-card01:hover .thumb .common-social {
@@ -4886,7 +4886,7 @@ input.main-search-input::placeholder {
     content: "";
     width: 100%;
     height: 60px;
-    background: linear-gradient(90deg, #09D5DC 0%, rgba(239, 100, 76, 0.1) 60.08%);
+    background: linear-gradient(90deg, #2DBCEE 0%, rgba(239, 100, 76, 0.1) 60.08%);
     border-radius: 100px;
     z-index: -1;
     opacity: 0;

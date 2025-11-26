@@ -13,13 +13,11 @@ export default function Blog1() {
                                 BLOG &amp; Nouvelles
                             </div>
                             <h2 className="stitle">
-                                Vérifiez notre <span className="fw-400">Entreprise</span>
-                                <span className="d-block fw-semibold">
-                                    Histoire interne
-                                </span>
+                            Blog : Innovations, <span className="fw-400">Projets et Inspirations</span>
+                                 
                             </h2>
                         </div>
-                        <Link href="/blog-grid" className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
+                        <Link href="https://blog.metaz.fr" className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
                             Voir tous les articles
                             <span className="rot60 d-inline-block">
                                 <i className="fas fa-arrow-up theme-clr" />

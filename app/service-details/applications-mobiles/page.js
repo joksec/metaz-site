@@ -45,7 +45,9 @@ export default function ServiceApps() {
                 <section className="Service-details pt-space pb-space">
                     <div className="container">
                         <div className="service-details-header bb-border pb-xxl-9 pb-xl-7 pb-6">
-                             
+                        <div className="thumb w-100 mb-xxl-12 mb-xl-9 mb-sm-6 mb-5" data-aos="zoom-in" data-aos-duration={1500}>
+                                <img src="/assets/img/service/app.png" alt="img" className="w-100" />
+                            </div>
                             <h3 className="white-clr mb-xxl-9 mb-xl-7 mb-lg-6 mb-4" data-aos="zoom-in-left" data-aos-duration={1600}>
                                 Conception et développement d’apps iOS/Android et cross‑platform orientées expérience et performance.
                             </h3>
@@ -130,17 +132,17 @@ export default function ServiceApps() {
                             <Swiper {...swiperOptions} className="swiper-wrapper">
                                 <SwiperSlide>
                                     <div className="study-thumb-slide w-100">
-                                        <img src="/assets/img/service/app-1.jpeg" alt="img" className="w-100" />
+                                        <img src="/assets/img/service/app-1.png" alt="img" className="w-100" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="study-thumb-slide w-100">
-                                        <img src="/assets/img/service/app-2.jpeg" alt="img" className="w-100" />
+                                        <img src="/assets/img/service/app-2.png" alt="img" className="w-100" />
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="study-thumb-slide w-100">
-                                        <img src="/assets/img/service/app-3.jpeg" alt="img" className="w-100" />
+                                        <img src="/assets/img/service/app-3.png" alt="img" className="w-100" />
                                     </div>
                                 </SwiperSlide>
                             </Swiper>

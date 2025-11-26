@@ -16,8 +16,8 @@ export default function Footer1() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4304)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_4304" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#09D5DC" />
-                                                    <stop offset={1} stopColor="#09D5DC" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#2DBCEE" />
+                                                    <stop offset={1} stopColor="#2DBCEE" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -68,8 +68,8 @@ export default function Footer1() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4304)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_43041" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#09D5DC" />
-                                                    <stop offset={1} stopColor="#09D5DC" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#2DBCEE" />
+                                                    <stop offset={1} stopColor="#2DBCEE" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -118,8 +118,8 @@ export default function Footer1() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4305)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_4305" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#09D5DC" />
-                                                    <stop offset={1} stopColor="#09D5DC" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#2DBCEE" />
+                                                    <stop offset={1} stopColor="#2DBCEE" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -168,8 +168,8 @@ export default function Footer1() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4306)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_4306" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#09D5DC" />
-                                                    <stop offset={1} stopColor="#09D5DC" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#2DBCEE" />
+                                                    <stop offset={1} stopColor="#2DBCEE" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -198,7 +198,7 @@ export default function Footer1() {
                     </div>
                     <div className="footer-bottom-version-one d-sm-flex gap-sm-0 gap-4 d-grid align-items-center justify-content-sm-between justify-content-center bg2-clr px-xxl-7 px-6 py-xxl-6 py-xl-6 py-7 mb-xxl-10 mb-lg-9 mb-sm-8 mb-5" data-aos="zoom-in-up" data-aos-duration={1600}>
                         <Link href="/" className="footer-logov1 m-sm-0 m-auto">
-                            <img src="/assets/img/logo/logo.png" alt="img" />
+                            <img src="/assets/img/logo/logo.png" width={200} alt="img" />
                         </Link>
                         <Link href="/#mains" className="footer-topscroll d-center themebg">
                             <i className="fas fa-arrow-up" />

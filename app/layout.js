@@ -5,11 +5,14 @@ import "/public/assets/css/nice-select.css"
 import "/public/assets/css/swiper.min.css"
 import "/public/assets/css/aos.css"
 import "/public/assets/css/main.css"
-import { Manrope, Plus_Jakarta_Sans } from 'next/font/google'
+import { Plus_Jakarta_Sans } from 'next/font/google'
+import localFont from 'next/font/local'
 
-const manrope = Manrope({
-    weight: ['300', '400', '500', '600', '700'],
-    subsets: ['latin'],
+const uber = localFont({
+    src: [
+        { path: '../public/assets/webfonts/UberMoveMedium.otf', weight: '500', style: 'normal' },
+        { path: '../public/assets/webfonts/UberMoveBold.otf', weight: '700', style: 'normal' },
+    ],
     variable: "--manrope",
     display: 'swap',
 })
@@ -27,7 +30,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${manrope.variable} ${jakarta.variable} position-relative bg2-clr`}>{children}</body>
+            <body className={`${uber.variable} ${jakarta.variable} position-relative bg2-clr`}>{children}</body>
         </html>
     )
 }
