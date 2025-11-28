@@ -55,7 +55,7 @@ export default function Team1() {
                                         Directeur artistique
                                     </span>
                                     <h5 className="white-clr whitehover">
-                                        <Link href="/team-details" className="white-clr whitehover">Ilyass. B</Link>
+                                        <Link href="#" className="white-clr whitehover">Ilyass. B</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -82,7 +82,7 @@ export default function Team1() {
                                     Project Manager
                                     </span>
                                     <h5 className="white-clr">
-                                        <Link href="/team-details" className="white-clr whitehover">Diallo. A</Link>
+                                        <Link href="#" className="white-clr whitehover">Diallo. A</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@ export default function Team1() {
                                         Full Stack Developer
                                     </span>
                                     <h5 className="white-clr">
-                                        <Link href="/team-details" className="white-clr whitehover">Anass. B</Link>
+                                        <Link href="#" className="white-clr whitehover">Anass. B</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -136,7 +136,7 @@ export default function Team1() {
                                     Traffic Manager
                                     </span>
                                     <h5 className="white-clr">
-                                        <Link href="/team-details" className="white-clr whitehover">Phillipe. D</Link>
+                                        <Link href="#" className="white-clr whitehover">Phillipe. D</Link>
                                     </h5>
                                 </div>
                             </div>
