@@ -1,5 +1,6 @@
 
 import Layout from "@/components/layout/Layout"
+import ContactForm from "@/components/elements/ContactForm"
 export default function Contact() {
 
     return (
@@ -69,37 +70,7 @@ export default function Contact() {
                                     <h3 className="white mb-xxl-15 mb-xl-10 mb-lg-7 mb-5">
                                         Laisser un message
                                     </h3>
-                                    <form action="#">
-                                        <div className="row g-xxl-8 g-xl-6 g-lg-4 g-4">
-                                            <div className="col-lg-6">
-                                                <input type="text" placeholder="Nom" />
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <input type="email" placeholder="Adresse email" />
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <select class="form-select">
-                                                    <option value={1}>
-                                                        Sujet
-                                                    </option>
-                                                    <option value={1}>
-                                                        Demande de devis
-                                                    </option>
-                                                    <option value={1}>
-                                                        Autre
-                                                    </option>
-                                                </select>
-                                            </div>
-                                            <div className="col-lg-12">
-                                                <textarea name="messages" rows={5} placeholder="Votre message" />
-                                            </div>
-                                            <div className="col-lg-5">
-                                                <button type="submit" className="submit-btn">
-                                                    Envoyer le message
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                    <ContactForm />
                                 </div>
                             </div>
                         </div>
