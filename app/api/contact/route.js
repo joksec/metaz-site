@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
 export async function POST(request) {
     try {
@@ -23,7 +24,7 @@ export async function POST(request) {
         const message = (data.message || '').toString().trim();
 
         if (!name || !email || !message) {
-            return new Response(JSON.stringify({ ok: false, error: 'Veuillez renseigner nom, email et message.' }), {
+            return new Response(JSON.stringify({ ok: false, error: 'Veuillez renseigner nom, email et message.', code: 'validation_error' }), {
                 status: 400,
                 headers: { 'content-type': 'application/json' },
             });
@@ -38,7 +39,7 @@ export async function POST(request) {
         const fromName = process.env.CONTACT_FROM_NAME || 'MetaZ Website';
 
         if (!user || !pass) {
-            return new Response(JSON.stringify({ ok: false, error: 'Configuration SMTP manquante.' }), {
+            return new Response(JSON.stringify({ ok: false, error: 'Configuration SMTP manquante.', code: 'smtp_config_missing' }), {
                 status: 500,
                 headers: { 'content-type': 'application/json' },
             });
@@ -51,6 +52,16 @@ export async function POST(request) {
             auth: { user, pass },
         });
 
+        try {
+            await transporter.verify();
+        } catch (e) {
+            console.error('SMTP verify failed', e);
+            return new Response(JSON.stringify({ ok: false, error: 'Connexion SMTP échouée.', code: 'smtp_verify_failed' }), {
+                status: 500,
+                headers: { 'content-type': 'application/json' },
+            });
+        }
+
         const html = `
             <div>
                 <h2>Nouveau message de contact</h2>
@@ -62,20 +73,29 @@ export async function POST(request) {
             </div>
         `;
 
-        await transporter.sendMail({
-            from: { name: fromName, address: fromEmail },
-            to,
-            subject: `[Contact] ${subject}`,
-            html,
-            replyTo: email,
-        });
+        try {
+            await transporter.sendMail({
+                from: { name: fromName, address: fromEmail },
+                to,
+                subject: `[Contact] ${subject}`,
+                html,
+                replyTo: email,
+            });
+        } catch (e) {
+            console.error('sendMail failed', e);
+            return new Response(JSON.stringify({ ok: false, error: "Échec de l’envoi du message.", code: 'smtp_send_failed' }), {
+                status: 500,
+                headers: { 'content-type': 'application/json' },
+            });
+        }
 
         return new Response(JSON.stringify({ ok: true }), {
             status: 200,
             headers: { 'content-type': 'application/json' },
         });
     } catch (error) {
-        return new Response(JSON.stringify({ ok: false, error: 'Échec de l’envoi du message.' }), {
+        console.error('Contact API unexpected error', error);
+        return new Response(JSON.stringify({ ok: false, error: 'Échec de l’envoi du message.', code: 'internal_error' }), {
             status: 500,
             headers: { 'content-type': 'application/json' },
         });
