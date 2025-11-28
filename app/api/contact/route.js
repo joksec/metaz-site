@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+export const runtime = 'nodejs';
 
 export async function POST(request) {
     try {
@@ -33,7 +34,7 @@ export async function POST(request) {
         const user = process.env.BREVO_SMTP_USER;
         const pass = process.env.BREVO_SMTP_KEY || process.env.BREVO_API_KEY;
         const to = process.env.CONTACT_TO_EMAIL || 'contact@metaz.fr';
-        const fromEmail = process.env.CONTACT_FROM_EMAIL || 'no-reply@metaz.fr';
+        const fromEmail = process.env.CONTACT_FROM_EMAIL || user;
         const fromName = process.env.CONTACT_FROM_NAME || 'MetaZ Website';
 
         if (!user || !pass) {
