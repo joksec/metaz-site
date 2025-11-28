@@ -12,6 +12,7 @@ import Footer3 from './footer/Footer3'
 import Footer4 from './footer/Footer4'
 import Header1 from "./header/Header1"
 import Header2 from './header/Header2'
+import WhatsAppToggle from "../elements/WhatsAppToggle"
 
 export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children }) {
     const [scroll, setScroll] = useState(0)
@@ -69,6 +70,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 
             <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
 
+            <WhatsAppToggle />
             <BackToTop target="#top" />
         </>
     )
